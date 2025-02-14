@@ -1,0 +1,21 @@
+
+
+h1{
+    color: #0088DD;
+    font-weight: normal;
+    text-shadow: 1px 2px 3px black;
+}
+.head-text{
+    color: #5bd1ff;
+    font-family: sans-serif;
+}
+.special{
+    color: #5BA2E6;
+}
+
+h2{
+    color: #468ADD;
+}
+.text-3{
+    text-align: right;
+}
