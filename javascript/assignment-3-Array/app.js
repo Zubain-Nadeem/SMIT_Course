@@ -107,6 +107,26 @@
 
 // Task no 9
 
+// Task no 10
+
+// let cleanCities = ['karachi', 'quetta', 'lahore'];
+
+// let userCity = prompt('Where do you live?');
+
+// if (cleanCities.indexOf(userCity.toLowerCase()) !== -1) {
+//     document.write("You live in a clean city.");
+// }
+// else {
+//     document.write("You do not live in a clean city.");
+// }
+
+// Task no 10
+
+// Task no 11
+
+
+
+// Task no 11
 
 
 
