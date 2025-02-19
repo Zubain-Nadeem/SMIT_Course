@@ -1,4 +1,4 @@
-// Task no 1 
+// Task no 1
 
 // for (let i = 0 ; i < 5 ; i++) {
 //     console.log(`Hello World ${i}`);
@@ -10,7 +10,6 @@
 //     document.write(`${count} ${"<br />"}`);
 // }
 
-
 // Task no 3
 
 // let tableName = +prompt("Enter a table");
@@ -20,7 +19,7 @@
 //     document.write(`${tableName} x ${count} = ${tableName * count} ${"<br />"}`);
 // }
 
-// Task no 4 
+// Task no 4
 
 // let mobile = ["Apple" , "Nokia" , "Samsung" , "Vivo" , "Oppo"];
 
@@ -41,7 +40,7 @@
 //     document.write(`Element at index ${i} is ${furite[i]} ${"<br />"}`)
 // }
 
-// Task no 6 
+// Task no 6
 
 // let N = prompt("Enter number of items ");
 // let items= []
@@ -55,7 +54,6 @@
 // for (let i = 0 ; i < items.length ; i++){
 //     document.write(`${items[i]} ${"<br />"}`)
 // }
-
 
 // Task no 7
 
@@ -88,7 +86,80 @@
 
 // }
 
+// Task no 8
+
+// let bakery =  ["Cake", "Apple Pie" , "Cookie" , "Chips" , "Patties"];
+// let user = prompt("Welcome to our bakery what do you want to order ?")
+// user.toLowerCase();
+// let found = false;
+
+// for (let i = 0; i < bakery.length; i++){
+
+// if(user === bakery[i].toLowerCase()){
+//     document.write(`${bakery[i]} is avaiable at index ${i} in our bakery .`)
+//     found = true;
+//     break;
+// }
+// }
+
+// if(!found){
+//     document.write(`Sorry We dont have it .`)
+// }
+
+// Task no 9
+
+// let number = [23, 41, 54 , 81 ,83 ,91];
+// let largest = 0;
+
+// for(let i = 0 ; i < number.length ; i++){
+//     if(number[i] > largest){
+//         largest = number[i];
+//     }
+// }
+
+// document.write(`Array Items ${number} <br />
+//      The Largest Number : ${largest} <br />`)
+
+// Task no 10
+
+// let number = [23, 41, 54 , 81 ,83 ,91];
+// let smallest = number[0];
+
+// for(let i = 0 ; i < number.length ; i++){
+//     if(number[i] < smallest){
+//         smallest = number[i];
+//     }
+// }
+
+// document.write(`Array Items ${number} <br />
+//      The Smallest Number : ${smallest} <br />`)
+
+// Task no 11
+
+// let number = [23, 41, 54, 81, 83, 91];
+// let smallest = number[0];
+// let largest = 0;
+
+// for (let i = 0; i < number.length; i++) {
+//   if (number[i] > largest) {
+//     largest = number[i];
+//   }
+
+//   if (number[i] < smallest) {
+//     smallest = number[i];
+//   }
+// }
+
+// document.write(`Array Items ${number} <br />
+//      The Smallest Number : ${smallest} <br />
+//      The Largest number : ${largest}  `)
 
 
+// Task no 12 
 
+// for (let i = 5 ; i <= 100; i+= 5 ){
+//     document.write(`${i} ,`)
+// }
+
+//Task no 13 
 
