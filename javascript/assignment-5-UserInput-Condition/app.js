@@ -16,12 +16,32 @@
 
 // Task no 3
 
-let city = prompt("Enter you city .");
-city = city.toLowerCase();
+// let city = prompt("Enter you city .");
+// city = city.toLowerCase();
 
-let kar = "Karachi";
-kar = kar.toLowerCase();
+// let kar = "Karachi";
+// kar = kar.toLowerCase();
 
-if(city === kar){
-    alert("Welcome to city of lights .")
-}
+// if(city === kar){
+//     alert("Welcome to city of lights .")
+// }
+
+// Task no 4 
+
+// let gender = prompt("Enter your gender .");
+// gender = gender.toLowerCase();
+
+// let man = "Male";
+// let women = "Female"
+
+// if(gender === man.toLowerCase()){
+//     document.write(`Good Morning Sir`)
+// }
+// else if(gender === women.toLowerCase()){
+//     document.write(`Good Morning Ma'am`)
+// }
+
+// else{
+//     document.write(`Good morning`)
+// }
+
