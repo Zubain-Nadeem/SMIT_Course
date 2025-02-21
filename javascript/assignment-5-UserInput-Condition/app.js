@@ -66,13 +66,26 @@
 
 // Task no 6
 
-let user = +prompt("Enter your age");
-let maxAge = 20;
+// let user = +prompt("Enter your age");
+// let maxAge = 20;
 
-if(user <= maxAge ){
-    document.write(`You are welcome !`)
-}
+// if(user <= maxAge ){
+//     document.write(`You are welcome !`)
+// }
 
-else{
-    document.write(`Sorry you are too much older`);
-}
+// else{
+//     document.write(`Sorry you are too much older`);
+// }
+
+
+// Task no 7
+
+// let user = prompt("Enter how many fuel you have remain in liter ")
+
+// if (user <= "0.25 liters"){
+//     document.write(`please refill the fuel in your car`)
+// }
+// else{
+//     document.write(`you can ride a car`)
+// }
+
