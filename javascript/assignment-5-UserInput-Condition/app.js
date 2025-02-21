@@ -45,3 +45,21 @@
 //     document.write(`Good morning`)
 // }
 
+// Task no 5
+
+let user = prompt("Enter traffic light color ?").toLowerCase();
+
+if(user === "red"){
+    document.write(`Vechical must stop`);
+}
+else if (user === "yellow"){
+    document.write(`Vechical should get ready to move `);
+}
+else if(user === "green"){
+    document.write(`Vechical can move now `);
+}
+
+else{
+document.write(`Invalid color wirte red / green / yellow`)
+}
+
