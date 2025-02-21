@@ -89,3 +89,23 @@
 //     document.write(`you can ride a car`)
 // }
 
+// Task no 8 
+
+let totalMarks = +prompt("Enter total marks .")
+let obtMarks = +prompt("Enter obtained marks .")
+let percen = obtMarks / totalMarks * 100;
+
+if (percen >= 80){
+    document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : A <br / > Remarks : Excellent`)
+}
+
+else if (percen >= 70){
+    document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : A <br / > Remarks : Good`)
+}
+
+else if (percen >= 60){
+    document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : B <br / > Remarks : You need to improve`)
+}
+else if (percen < 60){
+    document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : F <br / > Remarks : Fail`)
+}
