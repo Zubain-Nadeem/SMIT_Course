@@ -47,19 +47,32 @@
 
 // Task no 5
 
-let user = prompt("Enter traffic light color ?").toLowerCase();
+// let user = prompt("Enter traffic light color ?").toLowerCase();
 
-if(user === "red"){
-    document.write(`Vechical must stop`);
-}
-else if (user === "yellow"){
-    document.write(`Vechical should get ready to move `);
-}
-else if(user === "green"){
-    document.write(`Vechical can move now `);
+// if(user === "red"){
+//     document.write(`Vechical must stop`);
+// }
+// else if (user === "yellow"){
+//     document.write(`Vechical should get ready to move `);
+// }
+// else if(user === "green"){
+//     document.write(`Vechical can move now `);
+// }
+
+// else{
+// document.write(`Invalid color wirte red / green / yellow`)
+// }
+
+
+// Task no 6
+
+let user = +prompt("Enter your age");
+let maxAge = 20;
+
+if(user <= maxAge ){
+    document.write(`You are welcome !`)
 }
 
 else{
-document.write(`Invalid color wirte red / green / yellow`)
+    document.write(`Sorry you are too much older`);
 }
-
