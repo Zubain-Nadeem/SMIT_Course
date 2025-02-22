@@ -175,12 +175,31 @@
 
 // Task no 13 
 
-let number = +prompt(`Enter number do you want to know its even or odd ?`);
+// let number = +prompt(`Enter number do you want to know its even or odd ?`);
 
-if(number / 2){
-    document.write(`Its even `)
+// if(number / 2){
+//     document.write(`Its even `)
+// }
+
+// else{
+//     document.write(`Its odd `)
+// }
+
+// Task no 14 
+
+let weather = +prompt(`What is the temperature in karachi ?`);
+
+if (weather >= 40){
+    document.write(`Its too hot outside .`)
+}
+else if (weather >= 30){
+    document.write(`The weather is normal today .`)
 }
 
-else{
-    document.write(`Its odd `)
+else if (weather >= 20){
+    document.write(`Today's weather is cool  .`)
+}
+
+else if (weather >= 10){
+    document.write(`OMG ! todays weather is so cool  .`)
 }
