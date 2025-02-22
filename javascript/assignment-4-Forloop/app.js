@@ -141,7 +141,7 @@
 // let largest = 0;
 
 // for (let i = 0; i < number.length; i++) {
-//   if (number[i] > largest) {
+//   if (number[i] > largest) { 
 //     largest = number[i];
 //   }
 
@@ -161,5 +161,9 @@
 //     document.write(`${i} ,`)
 // }
 
-//Task no 13 
+// let pE = document.querySelectorAll(".hello")[0];
+// console.log(pE.innerHTML);
+
+
+
 

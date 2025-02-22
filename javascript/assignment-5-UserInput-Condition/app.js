@@ -91,21 +91,41 @@
 
 // Task no 8 
 
-let totalMarks = +prompt("Enter total marks .")
-let obtMarks = +prompt("Enter obtained marks .")
-let percen = obtMarks / totalMarks * 100;
+// let totalMarks = +prompt("Enter total marks .")
+// let obtMarks = +prompt("Enter obtained marks .")
+// let percen = obtMarks / totalMarks * 100;
 
-if (percen >= 80){
-    document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : A <br / > Remarks : Excellent`)
-}
+// if (percen >= 80){
+//     document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : A <br / > Remarks : Excellent`)
+// }
 
-else if (percen >= 70){
-    document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : A <br / > Remarks : Good`)
-}
+// else if (percen >= 70){
+//     document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : A <br / > Remarks : Good`)
+// }
 
-else if (percen >= 60){
-    document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : B <br / > Remarks : You need to improve`)
-}
-else if (percen < 60){
-    document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : F <br / > Remarks : Fail`)
-}
+// else if (percen >= 60){
+//     document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : B <br / > Remarks : You need to improve`)
+// }
+// else if (percen < 60){
+//     document.write(`Total Marks : ${totalMarks} <br /> Obtained Marks : ${obtMarks} <br />  Percentage : ${percen} <br /> Grade : F <br / > Remarks : Fail`)
+// }
+
+// Task no 9
+
+let product1 = prompt("What do you want to buy ?");
+let product2 = prompt("What's another item do you want to buy ?");
+let qty1 = +prompt(`How many ${product1} i give you ?`);
+let qty2 = +prompt(`How many ${product2} i give you ?`);
+let price1 = +prompt(`What is the price of ${product1} ?`);
+let price2 = +prompt(`What is the price of ${product2} ?`);
+let ship = +prompt(`Enter shipping charges /`);
+let total = (qty1 * price1) + (qty2 * price2) + ship;
+
+document.write (`Price of ${product1} is ${price1} <br />`);
+document.write(`Quantity of ${product1} is ${qty1} <br />`);
+document.write (`Price of ${product2} is ${price2} <br />`);
+document.write(`Quantity of ${product2} is ${qty2} <br />`);
+
+document.write(`Shipping charges ${ship} <br />`);
+
+document.write(`The total cost of your order is ${total}`);
