@@ -172,3 +172,15 @@
 // else{
 //     document.write(`Team B Won !`)
 // }
+
+// Task no 13 
+
+let number = +prompt(`Enter number do you want to know its even or odd ?`);
+
+if(number / 2){
+    document.write(`Its even `)
+}
+
+else{
+    document.write(`Its odd `)
+}
