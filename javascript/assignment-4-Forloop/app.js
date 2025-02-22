@@ -155,14 +155,6 @@
 //      The Largest number : ${largest}  `)
 
 
-// Task no 12 
-
-// for (let i = 5 ; i <= 100; i+= 5 ){
-//     document.write(`${i} ,`)
-// }
-
-// let pE = document.querySelectorAll(".hello")[0];
-// console.log(pE.innerHTML);
 
 
 
