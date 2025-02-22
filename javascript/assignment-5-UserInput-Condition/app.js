@@ -159,3 +159,16 @@
 // else{
 //     document.write(`Its not divisible by 3`)
 // }
+
+// Task no 12 
+
+// let teamA = +prompt(`Enter score of Team A .`);
+// let teamB = +prompt(`Enter score of Team B .`);
+
+// if (teamA > teamB){
+//     document.write(`Team A Won !`)
+// }
+
+// else{
+//     document.write(`Team B Won !`)
+// }
