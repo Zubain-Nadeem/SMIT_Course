@@ -148,3 +148,14 @@
 // else(
 //     document.write(`NOt in a range . the range is 1 to 10`)
 // )
+
+// Task no 11
+
+// let number = +prompt(`Enter number do you want to know its divisible by 3 or not .`);
+
+// if(number % 3 === 0){
+//     document.write(`Yes it divisible by 3`)
+// }
+// else{
+//     document.write(`Its not divisible by 3`)
+// }
