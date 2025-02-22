@@ -112,20 +112,39 @@
 
 // Task no 9
 
-let product1 = prompt("What do you want to buy ?");
-let product2 = prompt("What's another item do you want to buy ?");
-let qty1 = +prompt(`How many ${product1} i give you ?`);
-let qty2 = +prompt(`How many ${product2} i give you ?`);
-let price1 = +prompt(`What is the price of ${product1} ?`);
-let price2 = +prompt(`What is the price of ${product2} ?`);
-let ship = +prompt(`Enter shipping charges /`);
-let total = (qty1 * price1) + (qty2 * price2) + ship;
+// let product1 = prompt("What do you want to buy ?");
+// let product2 = prompt("What's another item do you want to buy ?");
+// let qty1 = +prompt(`How many ${product1} i give you ?`);
+// let qty2 = +prompt(`How many ${product2} i give you ?`);
+// let price1 = +prompt(`What is the price of ${product1} ?`);
+// let price2 = +prompt(`What is the price of ${product2} ?`);
+// let ship = +prompt(`Enter shipping charges /`);
+// let total = (qty1 * price1) + (qty2 * price2) + ship;
 
-document.write (`Price of ${product1} is ${price1} <br />`);
-document.write(`Quantity of ${product1} is ${qty1} <br />`);
-document.write (`Price of ${product2} is ${price2} <br />`);
-document.write(`Quantity of ${product2} is ${qty2} <br />`);
+// document.write (`Price of ${product1} is ${price1} <br />`);
+// document.write(`Quantity of ${product1} is ${qty1} <br />`);
+// document.write (`Price of ${product2} is ${price2} <br />`);
+// document.write(`Quantity of ${product2} is ${qty2} <br />`);
 
-document.write(`Shipping charges ${ship} <br />`);
+// document.write(`Shipping charges ${ship} <br />`);
 
-document.write(`The total cost of your order is ${total}`);
+// document.write(`The total cost of your order is ${total}`);
+
+// Task no 10
+
+// let secretNumber = 1;
+// let guss = +prompt(`Guess the Secrect Number ?`);
+
+// if (secretNumber === guss){
+//     document.write(`Bingo! Correct Answer .`)
+// }
+// else if (guss > secretNumber){
+//     document.write(`Close enough to correct `)
+// }
+// else if (guss < secretNumber){
+//     document.write(`Close enough to correct `)
+// }
+
+// else(
+//     document.write(`NOt in a range . the range is 1 to 10`)
+// )
