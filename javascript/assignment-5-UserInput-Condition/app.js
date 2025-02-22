@@ -187,19 +187,56 @@
 
 // Task no 14 
 
-let weather = +prompt(`What is the temperature in karachi ?`);
+// let weather = +prompt(`What is the temperature in karachi ?`);
 
-if (weather >= 40){
-    document.write(`Its too hot outside .`)
-}
-else if (weather >= 30){
-    document.write(`The weather is normal today .`)
-}
+// if (weather >= 40){
+//     document.write(`Its too hot outside .`)
+// }
+// else if (weather >= 30){
+//     document.write(`The weather is normal today .`)
+// }
 
-else if (weather >= 20){
-    document.write(`Today's weather is cool  .`)
-}
+// else if (weather >= 20){
+//     document.write(`Today's weather is cool  .`)
+// }
 
-else if (weather >= 10){
-    document.write(`OMG ! todays weather is so cool  .`)
-}
+// else if (weather >= 10){
+//     document.write(`OMG ! todays weather is so cool  .`)
+// }
+
+// Task no 15 
+
+// let num1 = +prompt(`Enter a number `);
+// let num2 = +prompt(`Enter another number `);
+// let operator = prompt(`Enter operator `);
+// let result ;
+
+// if (operator === "+"){
+//     result = num1 + num2;
+//     document.write (result)
+// }
+// else if (operator === "-"){
+//     result = num1 - num2;
+//     document.write (result)
+// }
+// else if (operator === "*"){
+//     result = num1 * num2;
+//     document.write (result)
+// }
+
+// else if (operator === "/"){
+//     result = num1 / num2;
+//     document.write (result)
+// }
+
+// else if (operator === "%"){
+//     result = num1 % num2;
+//     document.write (result)
+// }
+
+// else{
+//     document.write(`Something wrong .`)
+// }
+
+
+
