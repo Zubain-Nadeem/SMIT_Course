@@ -238,5 +238,32 @@
 //     document.write(`Something wrong .`)
 // }
 
+// Task no 16 
+
+let user = prompt(`Enter day name `);
+if (user === "monday"){
+    document.write(`Its a week day`)
+}
+else if (user === "Tuesday"){
+    document.write(`Its a week day`)
+}
+else if (user === "wednesday"){
+    document.write(`Its a week day`)
+}
+else if (user === "Thursday"){
+    document.write(`Its a week day`)
+}
+else if (user === "Friday"){
+    document.write(`Its a week day`)
+}
+
+else if (user === "Saturday"){
+    document.write(`its weedend`)
+}
+
+else if (user === "Sunday"){
+    document.write(`Yes its Holiday `)
+}
+
 
 
