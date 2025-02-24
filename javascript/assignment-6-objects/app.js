@@ -41,9 +41,9 @@ console.log(`${person.firstName} ${person.lastName}`);
 // Task no 6
 
 let changePara = document.querySelectorAll(".para");
+let newText = "Updated text "
+for (let i = 0 ; i < changePara.length ; i++){
+    changePara[i].innerHTML = newText;
+    23
+}
 
-
-changePara[0].innerHTML = "Updated hello world 1";
-changePara[1].innerHTML = "Updated hello world 2";
-changePara[2].innerHTML = "Updated hello world 3";
-changePara[3].innerHTML = "Updated hello world 4";

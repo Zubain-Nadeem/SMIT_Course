@@ -20,7 +20,7 @@
 //                  <br /> second number : ${secondNumber}
 //                  <br /> operator : ${operator}
 //                  <br /> result : ${result}`);
-// } 
+// }
 // else if (operator === "-") {
 //   result = firstNumber - secondNumber;
 //   document.write(`first number : ${firstNumber}
@@ -34,14 +34,14 @@
 //                    <br /> second number : ${secondNumber}
 //                    <br /> operator : ${operator}
 //                    <br /> result : ${result}`);
-// } 
+// }
 // else if (operator === "/") {
 //   result = firstNumber / secondNumber;
 //   document.write(`first number : ${firstNumber}
 //                    <br /> second number : ${secondNumber}
 //                    <br /> operator : ${operator}
 //                    <br /> result : ${result}`);
-// } 
+// }
 // else if (operator === "%") {
 //   result = firstNumber % secondNumber;
 //   document.write(`first number : ${firstNumber}
@@ -51,7 +51,6 @@
 // } else {
 //   document.write(`Wrong operator enter + - * / %`);
 // }
-
 
 // Pratice question 3 Concepts Used: If-Else, Math Expressions, Prompt
 
@@ -68,3 +67,15 @@
 // else{
 //   document.write(`its not a number `)
 // }
+
+// partice questio 4  Concepts Used: Arrays, For Loop, Prompt
+
+let fruits = ["Apple", "Banana", "Stawberry", "Mango"];
+
+for (let i = 0; i < fruits.length; i++) {
+  let user = prompt("Which fruite do you want to add in the fruit basket .");
+  fruits.push(user);
+    document.write(`Original Array : ${fruits} <br />
+    user fruit : ${user} <br />
+    updated Array : ${fruits}`);
+}
