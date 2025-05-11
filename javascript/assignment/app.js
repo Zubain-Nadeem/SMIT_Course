@@ -209,4 +209,27 @@
 // }
 
 // Task no 12 
- 
+
+// Task no 13 
+
+// let userName = prompt("Enter your name .").toLowerCase();
+
+// if (userName === "zubain" || userName === "ali"){
+//     console.log(`Hey we have same name i hope today is your best day .`)
+// }
+// else{
+//     console.log(`hello`)
+// }
+
+// Swtich statment Task no 14
+// let userNumber = +prompt("Enter a number to find out its divisiable by 3 or not . ");
+
+// switch (userNumber % 3) {
+//     case 0:
+//         console.log(`Yes its divisiable by 3`)
+//         break;
+
+//     default:
+//         console.log(`Its not divisiable by 3`)
+//         break;
+// }
